@@ -7,3 +7,5 @@
 ### Proxy Server
 #### Basic Setup
 <img  src = "http://imageshack.com/a/img923/9713/Kwx3VZ.gif">
+#### Echo Server
+<img src = "http://imageshack.com/a/img923/2127/9lMWBI.gif">
