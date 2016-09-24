@@ -10,4 +10,4 @@
 #### Echo Server
 <img src = "http://imageshack.com/a/img923/2127/9lMWBI.gif">
 #### Proxy Server
-<img src="http://imageshack.com/a/img921/8182/8zc5jR.gif">
+<img src="http://imageshack.com/a/img921/7458/qZskyV.gif">
