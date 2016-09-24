@@ -1,0 +1,25 @@
+{
+  "name": "proxyserver-demo",
+  "version": "1.0.0",
+  "description": "This is a demo for joining a class of coder school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -- index.js --foo=bar"
+  },
+  "author": "Han Cao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckhan89/serverProxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ckhan89/serverProxy/issues"
+  },
+  "homepage": "https://github.com/ckhan89/serverProxy#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "request": "^2.75.0",
+    "yargs": "^3.32.0"
+  }
+}
