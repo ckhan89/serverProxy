@@ -5,13 +5,13 @@
 ### LEARNYOUNODE
 <img src="http://imageshack.com/a/img921/3153/I82Nv1.png">
 ### Proxy Server
-Can you successfully echo requests made to the echo server? YES \n
-Can you successfully proxy requests made to the proxy server? YES \n
-Did you include a CLI as described above? YES \n
-Does your app log request to stdout or save it properly to a file when the log argument is given? YES \n
-Did you successfully push your code to github? Can you see the code on github? YES \n
-Did you add a README which includes a GIF walkthrough of the app's functionality? YES \n
-Did you create an issue on the repo and include /cc @codepathreview @codepath in the issue body? YES \n
+  *Can you successfully echo requests made to the echo server? YES 
+  *Can you successfully proxy requests made to the proxy server? YES
+  *Did you include a CLI as described above? YES 
+  *Does your app log request to stdout or save it properly to a file when the log argument is given? YES 
+  *Did you successfully push your code to github? Can you see the code on github? YES 
+  *Did you add a README which includes a GIF walkthrough of the app's functionality? YES 
+  *Did you create an issue on the repo and include /cc @codepathreview @codepath in the issue body? YES 
 #### Basic Setup
 <img  src = "http://imageshack.com/a/img923/9713/Kwx3VZ.gif">
 #### Echo Server
