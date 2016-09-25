@@ -20,8 +20,13 @@
   *Did you create an issue on the repo and include /cc @codepathreview @codepath in the issue body? YES 
   
 #### Basic Setup
+To run echo server run on terminal :npm start
 <img  src = "http://imageshack.com/a/img923/9713/Kwx3VZ.gif">
 #### Echo Server
 <img src = "http://imageshack.com/a/img923/2127/9lMWBI.gif">
 #### Proxy Server
+To run proxy server , you run on terminal:
+nodemon proxyServer.js --host hostname --log  nameoflogfile
+
+example : nodemon proxyServer.js --host "bongdaplus.vn" --log "logfile.txt"
 <img src="http://imageshack.com/a/img922/3188/NFTcVa.gif">
