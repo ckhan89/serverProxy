@@ -20,6 +20,6 @@
   "dependencies": {
     "path": "^0.12.7",
     "request": "^2.75.0",
-    "yargs": "^3.32.0"
+    "yargs": "^6.0.0"
   }
 }
