@@ -9,7 +9,6 @@ let argv = require('yargs')
     .options({
         host: {
             default:'127.0.0.1:8000',
-            type: 'string',
             alias: 'x',
             describe: 'Specify a forwarding host ssl'
         },
@@ -19,7 +18,6 @@ let argv = require('yargs')
         },
         'host-ssl': {
             demand: false,
-            type: 'string',
             alias:'H',
             describe:'Specify a forwarding host ssl'
         },
@@ -60,7 +58,7 @@ let logStream = logPath ? fs.createWriteStream(logPath) : process.stdout
 
 let scheme = argv['host-ssl']? 'https':'http'
 let port = argv.port || (argv.host === '127.0.0.1' ? 8000 : 80)
-// add --host-ssl and --port-ssl 
+// add --host-ssl and --port-ssl
 let host = argv['host-ssl']? argv['host-ssl']:argv.host
 let finalPort = argv['host-ssl']? (argv['port-ssl']? argv['port-ssl']:80): port
 // update destinationUrl
@@ -83,7 +81,7 @@ var  handler = function (req,res) {
     let outboundResponse = request(options)
     req.pipe(outboundResponse)
 
-    // req.pipe(logStream, {end: false})
+    req.pipe(logStream, {end: false})
     logStream.write(chalk.yellow.bold('Request headers: ') + chalk.green(JSON.stringify(req.headers)))
     outboundResponse.pipe(res)
 }
